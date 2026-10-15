@@ -25,11 +25,11 @@
 
 ### BUD-03 — Define purchase-check recommendations · Milestone 1
 
-- [ ] Choose plain-language outcomes, such as “Looks affordable” or “May put your reserve at risk.”
-- [ ] Decide which amounts and obligations to show with each outcome.
-- [ ] Write example scenarios and expected results, including irregular income and large purchases.
+- [x] Choose plain-language outcomes, such as “Looks affordable” or “May put your reserve at risk.”
+- [x] Decide which amounts and obligations to show with each outcome.
+- [x] Write example scenarios and expected results, including irregular income and large purchases.
 
-- **Done when:** Scenarios have clear, explainable expected recommendations.
+- **Done when:** Scenarios have clear, explainable expected recommendations. See [purchase-check recommendations](./Purchase_Check_Recommendations.md).
 Backlog
 
 ### BUD-04 — Sketch the main user journeys · Milestone 2
