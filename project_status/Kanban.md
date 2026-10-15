@@ -6,9 +6,9 @@
 
 ### BUD-01 — Define tracked financial records · Milestone 1
 
-- [ ] List record types: income, spending, recurring bills, investments, savings goals, and planned purchases.
-- [ ] Decide which records need an account, category, date, and optional note.
-- [ ] Decide how cash and investments are distinguished.
+- [x] List record types: income, spending, recurring bills, investments, savings goals, and planned purchases.
+- [x] Decide which records need an account, category, date, and optional note.
+- [x] Decide how cash and investments are distinguished.
 
 - **Done when:** The record types and their required information are documented.
 
