@@ -14,10 +14,12 @@
 
 ### BUD-02 — Define affordability rules · Milestone 1
 
-- [ ] Decide how to calculate available cash after upcoming bills and planned savings.
-- [ ] Define a user-set minimum cash reserve.
-- [ ] Decide how investments are treated in purchase checks.
-- [ ] Specify what happens when financial data is missing or outdated.
+- [x] Define the initial balance source for each account; for the MVP, the user enters the balance and the date it applies from. Treat it as a start-of-day balance.
+- [x] Define how account balances and subsequent records are used to calculate available cash. Apply recorded income and spending dated on/after the opening-balance date, through the check date.
+- [x] Decide how to calculate available cash after upcoming bills and planned savings. Deduct each scheduled bill and savings contribution due after the check date and through the purchase date; do not assume future income.
+- [x] Define a user-set minimum cash reserve. A purchase is affordable only if remaining cash is at least this reserve.
+- [x] Decide how investments are treated in purchase checks. Exclude them from spendable cash.
+- [x] Specify what happens when financial data is missing or outdated. Return “not enough information” if an opening balance is missing or dated in the future, or is more than 30 days old.
 
 - **Done when:** The rules are clear enough to apply consistently to a purchase.
 
@@ -33,6 +35,7 @@ Backlog
 ### BUD-04 — Sketch the main user journeys · Milestone 2
 
 - [ ] Map how a user adds records, reviews their budget, and checks a purchase.
+- [ ] Include setting up an account with its initial balance and effective date.
 - [ ] Include correcting a record and updating a recurring item.
 
 - **Done when:** The main journeys are documented and can be reviewed before implementation.
@@ -40,6 +43,7 @@ Backlog
 ### BUD-05 — Design the core screens · Milestone 2
 
 - [ ] Sketch an overview, transaction list and form, recurring items, savings goals, and purchase checker.
+- [ ] Include an account setup or edit flow for entering an initial balance and its effective date.
 - [ ] Show how users move between the screens.
 
 - **Done when:** Each MVP task has an obvious place in the proposed experience.
@@ -53,17 +57,19 @@ Backlog
 ### BUD-07 — Create the core data model · Milestone 3
 
 - [ ] Define records for transactions, recurring items, categories, and goals.
+- [ ] Define account data, including a user-entered initial balance and its effective date.
 - [ ] Include fields needed by the agreed affordability rules.
 
 - **Done when:** The model supports all MVP records and calculations.
 
-### BUD-08 — Build transaction record management · Milestone 3
+### BUD-08 — Build account and transaction record management · Milestone 3
 
+- [ ] Let users add and edit accounts with an initial balance and the date it applies from.
 - [ ] Add, view, edit, and delete financial records.
 - [ ] Validate amounts and dates.
 - [ ] Confirm destructive actions where appropriate.
 
-- **Done when:** Users can maintain records and receive clear validation feedback.
+- **Done when:** Users can maintain accounts and records, enter an initial account balance, and receive clear validation feedback.
 
 ### BUD-09 — Add recurring income and bills · Milestone 3
 
