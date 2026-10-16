@@ -2,7 +2,7 @@
 
 These journeys describe the proposed user experience for Milestone 2. They are
 flow descriptions, not screen mockups; the screen layout and navigation are
-covered by BUD-05.
+covered in [Core Screen Design](./Core_Screen_Design.md).
 
 ## Shared record conventions
 

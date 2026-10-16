@@ -1,6 +1,6 @@
 # Budget Logbook Kanban
 
-**Board status:** BUD-01 through BUD-04 are **Done**; BUD-05 through BUD-18 are in **Backlog**. Move a card to In **Progress** when you start it, **Blocked** if it needs a decision or dependency, and **Done** once its acceptance criteria are met.
+**Board status:** BUD-01 through BUD-05 are **Done**; BUD-06 through BUD-18 are in **Backlog**. Move a card to In **Progress** when you start it, **Blocked** if it needs a decision or dependency, and **Done** once its acceptance criteria are met.
 
 ## Done
 
@@ -39,15 +39,16 @@
 
 - **Done when:** The main journeys are documented and can be reviewed before implementation. See [core user journeys](./User_Journeys.md).
 
-## Backlog
-
 ### BUD-05 — Design the core screens · Milestone 2
 
-- [ ] Sketch an overview, transaction list and form, recurring items, savings goals, and purchase checker.
-- [ ] Include an account setup or edit flow for entering an initial balance and its effective date.
-- [ ] Show how users move between the screens.
+- [x] Sketch an overview, transaction list and form, recurring items, savings goals, and purchase checker.
+- [x] Include an account setup or edit flow for entering an initial balance and its effective date.
+- [x] Show how users move between the screens.
 
-- **Done when:** Each MVP task has an obvious place in the proposed experience.
+- **Done when:** Each MVP task has an obvious place in the proposed experience. See [core screen design](./Core_Screen_Design.md).
+
+## Backlog
+
 ### BUD-06 — Define overview summaries · Milestone 2
 
 - [ ] Specify income and spending for a selected period.
