@@ -1,8 +1,8 @@
 # Budget Logbook Kanban
 
-**Board status:** Assumed all work is unstarted. The first three cards are **Ready**; the rest are in **Backlog**. Move a card to In **Progress** when you start it, **Blocked** if it needs a decision or dependency, and **Done** once its acceptance criteria are met.
+**Board status:** BUD-01 through BUD-04 are **Done**; BUD-05 through BUD-18 are in **Backlog**. Move a card to In **Progress** when you start it, **Blocked** if it needs a decision or dependency, and **Done** once its acceptance criteria are met.
 
-## Ready
+## Done
 
 ### BUD-01 — Define tracked financial records · Milestone 1
 
@@ -30,15 +30,16 @@
 - [x] Write example scenarios and expected results, including irregular income and large purchases.
 
 - **Done when:** Scenarios have clear, explainable expected recommendations. See [purchase-check recommendations](./Purchase_Check_Recommendations.md).
-Backlog
 
 ### BUD-04 — Sketch the main user journeys · Milestone 2
 
-- [ ] Map how a user adds records, reviews their budget, and checks a purchase.
-- [ ] Include setting up an account with its initial balance and effective date.
-- [ ] Include correcting a record and updating a recurring item.
+- [x] Map how a user adds records, reviews their budget, and checks a purchase.
+- [x] Include setting up an account with its initial balance and effective date.
+- [x] Include correcting a record and updating a recurring item.
 
-- **Done when:** The main journeys are documented and can be reviewed before implementation.
+- **Done when:** The main journeys are documented and can be reviewed before implementation. See [core user journeys](./User_Journeys.md).
+
+## Backlog
 
 ### BUD-05 — Design the core screens · Milestone 2
 
