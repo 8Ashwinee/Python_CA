@@ -3,7 +3,7 @@
 This is a low-fidelity, platform-independent screen proposal for BUD-05. It
 describes screen contents and navigation; it does not specify visual styling
 or implementation. Exact overview calculations and time-period semantics are
-left to BUD-06.
+defined in [Overview Summary Definitions](./Overview_Summaries.md).
 
 ## Navigation
 
@@ -44,8 +44,8 @@ Accounts                                      [Manage accounts]
 - Each summary links to the relevant list or detail: transactions, recurring
   items, savings goals, or accounts.
 - Provides a prominent route to add a record and to check a purchase.
-- Exact figures, definitions, and time periods are specified separately in
-  BUD-06.
+- Exact figures, definitions, and time periods are specified in
+  [Overview Summary Definitions](./Overview_Summaries.md).
 
 ## 2. Transaction list and form
 

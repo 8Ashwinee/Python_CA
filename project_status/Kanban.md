@@ -1,6 +1,6 @@
 # Budget Logbook Kanban
 
-**Board status:** BUD-01 through BUD-05 are **Done**; BUD-06 through BUD-18 are in **Backlog**. Move a card to In **Progress** when you start it, **Blocked** if it needs a decision or dependency, and **Done** once its acceptance criteria are met.
+**Board status:** BUD-01 through BUD-06 are **Done**; BUD-07 through BUD-18 are in **Backlog**. Move a card to In **Progress** when you start it, **Blocked** if it needs a decision or dependency, and **Done** once its acceptance criteria are met.
 
 ## Done
 
@@ -51,10 +51,10 @@
 
 ### BUD-06 — Define overview summaries · Milestone 2
 
-- [ ] Specify income and spending for a selected period.
-- [ ] Specify how upcoming bills, savings-goal progress, and available-to-spend are shown.
+- [x] Specify income and spending for a selected period.
+- [x] Specify how upcoming bills, savings-goal progress, and available-to-spend are shown.
 
-- **Done when:** Each summary has a defined meaning and time period.
+- **Done when:** Each summary has a defined meaning and time period. See [overview summary definitions](./Overview_Summaries.md).
 
 ### BUD-07 — Create the core data model · Milestone 3
 
